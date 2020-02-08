@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+}
+
+.container {
+	color : white;
+	background-color: #DDD;
+	display: flex;
+	flex-direction: row;
+}
+
+.child-1 {
+	background : red;
+	flex-basis: 200px;
+	flex-grow: 1;
+}
+.child-2 {
+	background : green;
+	flex-basis: 200px;
+	flex-grow: 1;
+}
+
+.container-swap	.child-1 {
+	order: 1;
+}

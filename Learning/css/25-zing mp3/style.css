@@ -1,0 +1,71 @@
+/*CSS for weekly album*/
+
+.album-item {
+	height: 150px;
+	display: flex;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #EEE;
+}
+
+.album-item .cover {
+	width: 150px;
+	height: 150px;
+	font-size: 22px;
+	background-image: url('./cover-album.jpg');
+	background-size: cover;
+	color: white;
+}
+
+.album-item .cover .cover-content{
+	height: 100%;
+	background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 0%, rgba(255,255,255,0) 100%);	
+	display: flex;
+	align-items: flex-end;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.album-item .info {
+	padding: 0 20px;
+	color : #888;
+	font-size : 14px;
+}
+
+.album-item .info > div {
+	padding-bottom: 10px;
+}
+
+.album-item .info .song-title {
+	color : black;
+	font-size: 18px;
+}
+
+
+/*CSS for play music*/
+.song {
+	background-image: url('./cover-album.jpg');
+	width: 128px;
+	height: 128px;
+	background-size: cover;
+	background-position: center;
+}
+
+.song:hover .icon-play {
+	opacity: 1;
+}
+
+.fa-play-circle{
+	color: white;
+}
+
+.song .icon-play
+{
+	display: flex;
+	align-items: center;
+	justify-content : center;
+	height: 100%;
+	opacity: 0;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.4);
+}
