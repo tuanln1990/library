@@ -1,0 +1,42 @@
+.list-menu {
+	color: blue;
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+	height: 30px;
+}
+
+.list-menu li{
+	background-color: green;
+	display : flex;
+	align-items: center;
+	position: relative;
+}
+
+.list-menu li:hover {
+	background-color: #EEE;
+}
+
+.list-menu li:hover .sub-menu{
+	display: block;
+}
+
+.sub-menu {
+	list-style-type: none;
+	position: absolute;
+	left: 0;
+	top : 100%;
+	display: none;
+	padding : 0 ;
+	width: 150px;
+}
+
+a{
+	text-decoration: none;
+	padding : 10px;
+	width: 100%;
+}
+
+a:visited {
+	color: blue;
+}

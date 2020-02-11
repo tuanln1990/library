@@ -1,0 +1,28 @@
+.container {
+	background : #EEE;
+	width: 600px;
+	height: 600px;
+	display: flex;
+	position: relative;
+}
+
+
+.box {
+	width: 100px;
+	height: 100px;
+}
+
+.red {
+	background-color: red;
+	position: absolute;
+	right : 0px;
+	bottom: 0px;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
