@@ -210,10 +210,13 @@ body {
 
 
 
-@media (max-width: 1000px)
+@media (max-width: 768px)
 {
 	body {
 		background-color: black;
-		grid-template-columns: 1fr;
+		grid-template-columns: 1fr;	
+	}
+	.box {
+		transform: rotate(-30deg) skew(25deg) scale(0.3);
 	}
 }
