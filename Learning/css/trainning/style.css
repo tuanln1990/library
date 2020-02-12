@@ -171,7 +171,8 @@ input[type="submit"] {
 
 body {
 	font-family: 'Nunito', sans-serif;
-
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 }
 
 .wrapper {
@@ -184,7 +185,7 @@ body {
 
 .box {
 	position: relative;
-	transform: rotate(-30deg) skew(25deg) scale(0.6);
+	transform: rotate(-30deg) skew(25deg) scale(0.4);
 	display: inline-block;
 	background-color: white;
 	box-shadow: -4px 4px 14px rgba(0,0,0, .3);
@@ -204,4 +205,15 @@ body {
 
 .wrapper:hover .box .card  {
 	transform: translate(50px,-50px);
+}
+
+
+
+
+@media (max-width: 1000px)
+{
+	body {
+		background-color: black;
+		grid-template-columns: 1fr;
+	}
 }
