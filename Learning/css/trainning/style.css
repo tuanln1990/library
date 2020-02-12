@@ -1,3 +1,4 @@
+
 /*Switch button*/
 /*body {
 	background: #3d3d3d;
@@ -38,14 +39,16 @@
 
 */
 /*Css for login form*/
+/*@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 body {
 	background-color: #f5f5f5;
 	color: #313131;
-	font-family: "Roboto" sans-serif;
+	font-family: ;
 	display: flex;
 	align-items: center;
 	justify-content:center;
 	height: 100vh;
+	font-family: 'Nunito', sans-serif;
 }
 
 form h2 {
@@ -56,12 +59,7 @@ form h2 {
 form {
 	background-color: white;
 	padding: 1rem 1.2rem;
-	/*width: 250px;
-	height: 350px;*/
-	/*display: flex;*/
-	/*flex-direction: column;*/
 	border-radius: 1rem;
-	/*justify-content: space-evenly;*/
 	box-shadow: 4px 4px 12px #eadddd;
 	text-shadow: 0.4px 0.4px 5px rgba(0,0,0,0.2);
 }
@@ -112,4 +110,98 @@ input:focus + label, input:valid + label {
 	left: 8px;
 	font-size: 13.5px;
 	color: dodgerblue;
+}*/
+
+/*CSS for login form 2*/
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+/*img {
+	width: 3rem;
+	height: 3rem;
+}
+
+form {
+	background-color: #3e3f42ed;
+	padding: 2rem 1.2rem;
+	position : relative;
+	text-align: center;
+}
+
+img {
+	position: absolute;
+	left : 40%;
+	top : -10%;
+}
+
+
+
+body{
+	font-family: "Nunito", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('./bg-loginform-2.jpg');
+	background-size: cover;
+	height: 100vh;
+	color: #e3e4ee;
+}
+
+div {
+	margin: 2rem 0;
+}
+
+.submit {
+	font-family: "Nunito", sans-serif;
+}
+
+input[type="text"]{
+	outline: none;
+	border-radius: 3rem;
+	padding: 0.5rem;
+	border-style: none;
+	background-color: #f3f3f31a;
+	color: #e3e4ee;
+}
+
+input[type="submit"] {
+	width: 100%;
+	border-radius: 3rem;
+	border-style: none;
+	padding: 0.5rem 0;
+}*/
+
+body {
+	font-family: 'Nunito', sans-serif;
+
+}
+
+.wrapper {
+	display: block;
+	background-color: #f5f5f5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.box {
+	position: relative;
+	transform: rotate(-30deg) skew(25deg) scale(0.6);
+	display: inline-block;
+	background-color: white;
+	box-shadow: -4px 4px 14px rgba(0,0,0, .3);
+}
+
+.card {
+	padding: 10px 10px 6px 10px;
+	transition: 200ms;
+	background-color: rgba(255,255,255, .6);
+	border : 1px solid gray;
+}
+
+.card .title {
+	text-align: center;
+}
+
+
+.wrapper:hover .box .card  {
+	transform: translate(50px,-50px);
 }
