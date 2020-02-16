@@ -194,8 +194,9 @@ body {
 .card {
 	padding: 10px 10px 6px 10px;
 	transition: 200ms;
-	background-color: rgba(255,255,255, .6);
+	background-color: rgba(255,255,255,0.5);
 	border : 1px solid gray;
+	color: red;
 }
 
 .card .title {

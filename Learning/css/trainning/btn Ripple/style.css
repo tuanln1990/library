@@ -1,0 +1,77 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-image: linear-gradient(to top, #6f0e66, #93005f, #b20050, #ca003a, #d81b1b);
+}
+
+button {
+	overflow : hidden;
+	position: relative;
+	outline: none;
+	cursor: pointer;
+	padding: 15px 70px;
+	border: none;
+	color: white;
+	box-shadow: 2px 5px 5px #1C1C1C;
+	border-radius: 5px;
+	transition : .1s all;
+}
+
+button:nth-child(1) {
+	background-color: purple;
+}
+
+button:nth-child(2) {
+	background-color: tomato;
+}
+
+button:active {
+	box-shadow: none;
+	transform: translate(2px, 5px);
+}
+
+.ripple {
+	left: 0;
+	right: 0;
+	position: absolute;
+	background-color: rgba(255,255,255,.4);
+	height: 0px;
+	width: 0px;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	animation : rippleAnimation 1s ease-in-out;
+}
+
+@keyframes rippleAnimation {
+	100% {
+		width: 500px;
+		height: 500px;
+		/*opacity: 0;*/
+	}
+}
+
+.ripple1 {
+	left: 0;
+	top: 0;
+	position: absolute;
+	background-color: transparent;
+	border : 0px solid rgba(255,255,255,.4);
+	height: 0px;
+	width: 0px;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	animation : ripple1Animation 1s ease-in-out;
+}
+
+@keyframes ripple1Animation {
+	100% {
+		border-width: 100px;
+		width: 500px;
+		height: 500px;
+	}
+}
