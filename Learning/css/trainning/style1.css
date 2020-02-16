@@ -1,0 +1,188 @@
+/*CSS for checklist demo*/
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css");
+/*body {
+  font-family: 'Chakra Petch', sans-serif;
+  padding : 0;
+  margin : 0;
+  height :100vh;
+  background-color: #EEE;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(48,6,75);
+  background: linear-gradient(330deg, rgba(48,6,75,1) 0%, rgba(3,30,56,1) 100%); 
+}
+.check-box {
+  width : 350px;
+  height : auto;
+  background-color: blue;
+  background: rgb(68,20,93);
+  background: linear-gradient(54deg, rgba(68,20,93,1) 0%, rgba(58,16,106,1) 47%, rgba(90,28,196,1) 100%);
+  border-radius : 10px;
+  box-shadow: 0px 5px 40px #000;
+}
+
+.item {
+  border-top : 1px solid rgba(0,0,0,.4);
+  display : grid;
+  grid-template-columns : 1fr 6fr 1fr;
+  width : 100%;
+  height : 50px;
+  align-content : center;
+  position : relative;
+  overflow : hidden;
+}
+
+
+input[type="checkbox"], i {
+  margin: auto;
+}
+
+label, i {  
+  color : rgba(255,255,255, 0.3);
+}
+i {
+  font-size : 20px;
+}
+label {
+}
+
+input[type="checkbox"] {
+  -webkit-appearance : none;
+  appearance : none;
+  outline : none;
+  width : 15px;
+  height : 15px;
+  background-color : transparent;
+  border : 1px solid rgba(255,255,255,0.3);
+  border-radius : 2px;
+  position : relative;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  transition : all .2s;
+}
+
+input[type="checkbox"]:checked:before {
+  opacity : 1;
+}
+
+input[type="checkbox"]:checked ~ label {
+  color: #Fff;
+}
+
+input[type="checkbox"]:checked ~ i {
+  color: aqua;
+  animation : animation .7s;
+}
+
+
+
+input[type="checkbox"]:checked {
+  border : 1px solid aqua;
+  box-shadow : 0px 0px 5px aqua;
+}
+
+input[type="checkbox"]:before {
+  content : '\f00c';
+  font-family: 'fontAwesome';
+  position:absolute;
+  font-size: 10px;
+  color : aqua;
+  opacity : 0;
+}
+
+input[type="checkbox"]:hover {
+  transform : scale(1.4);
+}
+
+label:before{
+  content:'';
+  position : absolute;
+  width: 150px;
+  height: 100%;
+  left:-90px;
+  top : 0%;
+  background-color: #ff0000;
+  transform : skew(45deg);
+  opacity : 0.5;
+  pointer-events : none;
+  background:rgba(0,0,0,.1);
+  transition : .5s all;
+}
+label {
+  transition : .5s all;
+}
+
+input[type="checkbox"]:checked ~ label:before {
+  left:150%;
+  background-color: aqua;
+}
+@keyframes animation {
+  from{
+    opacity : 0;
+    transform:scale(0.1) rotate(30deg);
+  }
+  50% {
+    transform:rotate(-10deg);
+  }
+  75%{
+    transform:rotate(10deg)
+  }
+}*/
+
+/*CSS for 404 not found*/
+/*body {
+  height : 100vh;
+  display : flex;
+  align-items: center;
+  overflow : hidden;
+  position : relative;
+  background: rgb(16,2,24);
+  background: linear-gradient(54deg, rgba(16,2,24,1) 0%, rgba(34,3,87,1) 100%); 
+}
+
+.star {
+  background-color : red;
+  position : absolute;
+  width : 3px;
+  height : 3px;
+  animation : starAnimation 2s infinite linear; 
+  z-index : -1;
+}
+
+
+@keyframes starAnimation {
+  0% {
+     box-shadow : 0 0 10px #fff;
+  }
+  20% {
+     box-shadow : 0 0 35px #fff;
+  }
+  40% {
+     box-shadow : 0 0 10px #fff;
+  }
+  60% {
+     box-shadow : 0 0 35px #fff;
+  }
+  80% {
+     box-shadow : 0 0 10px #fff;
+  }
+  100%{
+    box-shadow : 0 0 35px #fff;
+  }
+}
+
+img {
+  width: 50px;
+  position: absolute;
+  left: -100px;
+  animation: OPMmove 3s infinite linear;
+}
+@keyframes OPMmove {
+  to {
+    left: 100%;
+  }
+}*/
+
